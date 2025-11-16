@@ -3,6 +3,9 @@
 
 int main()
 {
-	CustomVector<int> array(10,120,123,123,123,123,123);
+	CustomVector<int> vectorExm(10);
+	vectorExm[3] = 5;
+
+	std::cout << vectorExm[3];
 	return 0;
 }
